@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82b03155-39e2-45f8-a39d-3fdd4d793a41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/data/officialScraped.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/data/officialScraped.min.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/Jason.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DPS-ui/EnemyStatDisplay.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DPS-ui/InputLoadoutForm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/DPS-ui/StoredLoadout.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/containers/StoredLoadoutContainer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,11 +17,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Xug4rXakrDmfmgSwxDeYNxhBzH" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/data" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -51,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1581901204510</updated>
-      <workItem from="1581901205820" duration="1386000" />
+      <workItem from="1581901205820" duration="6520000" />
     </task>
     <servers />
   </component>

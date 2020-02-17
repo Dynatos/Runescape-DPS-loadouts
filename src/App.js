@@ -1,26 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import InputLoadoutForm from "./components/DPS-ui/InputLoadoutForm";
+import StoredLoadoutContainer from "./containers/StoredLoadoutContainer";
+import EnemyStatDisplay from "./components/DPS-ui/EnemyStatDisplay";
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+export default class App extends React.Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      loadouts: []
+    }
+  }
+  
+  addLoadout(loadout) {
+    this.setState({
+      loadouts: [
+        ...this.state.loadouts,
+        loadout
+      ]
+    })
+  }
+  
+  
+  
+  render() {
+    
+    return (
+      <div className="App">
+        <header className="App-header">
+          Header
+        </header>
+        <div className={"Main"}>
+          <EnemyStatDisplay />
+          <InputLoadoutForm />
+          <StoredLoadoutContainer loadouts={this.state.loadouts} addLoadout={this.addLoadout.bind(this)} />
+        </div>
+      </div>
+    )
+  }
+  
 }
 
-export default App;
